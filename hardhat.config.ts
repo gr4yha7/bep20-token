@@ -1,4 +1,5 @@
 import "@nomiclabs/hardhat-waffle";
+import "@nomiclabs/hardhat-ethers";
 import { task } from "hardhat/config"
 import {config} from "dotenv";
 config();
@@ -46,7 +47,7 @@ module.exports = {
       },
     },
     bscMainnet: {
-      url: "https://bsc-dataseed.binance.org",
+      url: "https://bsc-dataseed1.binance.org",
       chainId: 56
     }
   }
